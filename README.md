@@ -1,3 +1,17 @@
+Local Additions
+===============
+
+This is a fork of https://github.com/first20hours/google-10000-english.
+
+I've added a list of curated words based on google-10000-english that removes
+British spellings and also any 1-grams from the google corpus that don't appear
+in /usr/share/dict/words on my system.
+
+I also removed all one-character words except ``i'' and ``a'', and many
+two-character words like state or country abbreviations, etc.
+
+The resulting file google-curated-american-english.txt file has 9198 words.
+
 About This Repo
 ===============
 
